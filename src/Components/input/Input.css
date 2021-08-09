@@ -1,0 +1,7 @@
+.input {
+  width: 100%;
+  outline: none;
+  border: solid 1px var(--gray);
+  height: 5vh;
+  font-size: large;
+}

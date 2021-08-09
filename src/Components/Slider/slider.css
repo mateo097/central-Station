@@ -1,0 +1,19 @@
+  
+.slide-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: block;
+    height: max-content;
+   
+    -ms-overflow-style: none; /* HIDDEN SCROLL */
+}
+
+.slide-container::-webkit-scrollbar { /* HIDDEN SCROLL */
+    display: none;
+}
+
+.slider-item {
+    position: relative;
+    display: inline-block;
+    
+}

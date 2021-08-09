@@ -1,0 +1,29 @@
+.product-card-container{
+    background-color: var(--white);
+    height: var(--height-b);
+    border-radius: var(--border-normal);
+    box-shadow: 0px 1px 1px 0px var(--semi-dark-gray) ;
+
+    transition: transform 200ms ease
+}
+
+.product-card-container:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 12px 12px 0px var(--semi-dark-gray) ;
+}
+
+
+.product-card-image-container{
+    
+}
+.product-card-image{
+    border-radius: var(--border-normal);
+    max-width: 100%;
+}
+.product-card-discount{
+    color: var(--green)
+}
+.product-card-title{
+    margin: 0;
+    
+}

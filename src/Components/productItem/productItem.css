@@ -1,0 +1,19 @@
+.product-item-container{
+    background-color: var(--white);
+}
+.product-item-image {
+    max-height: var(--height-m);
+}
+.product-item-icon{
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    max-height: 10%;
+}
+.product-item-icon:hover{
+    color: rgb(188, 124, 248);
+    box-shadow: var(--shadow-normal);
+    
+}
